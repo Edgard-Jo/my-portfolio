@@ -1,0 +1,139 @@
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+@media (max-width: 768px) {
+  .nav-items {
+    display: none;
+  }
+
+  .nav-items.open {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.section {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: white;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+
+/* Ajout des classes pour l'effet de glissement */
+.slide-enter {
+  opacity: 0;
+  transform: translateX(100%);
+}
+.slide-enter-active {
+  opacity: 1;
+  transform: translateX(0);
+  transition: opacity 300ms, transform 300ms;
+}
+.slide-exit {
+  opacity: 1;
+  transform: translateX(0%);
+}
+.slide-exit-active {
+  opacity: 0;
+  transform: translateX(-100%);
+  transition: opacity 300ms, transform 300ms;
+}
+
+/* Styles pour améliorer la responsivité et le défilement */
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.header, .footer {
+  width: 100%;
+}
+
+.nav-items {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.nav-items a {
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+}
+
+@media (max-width: 768px) {
+  .nav-items {
+    flex-direction: column;
+  }
+}
+
+.footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1rem 0;
+}
+
+.progress {
+  background-color: #2f869c;
+}
+
+.progress-primary {
+  background-color: #4caf51;
+}
+
+/* Styles pour les sections */
+.section {
+  padding: 4rem 0;
+}
+
+.section h2 {
+  margin-bottom: 2rem;
+  font-size: 2rem;
+}
+
+.section p {
+  margin-bottom: 1rem;
+  font-size: 1.25rem;
+}
