@@ -1,5 +1,5 @@
 import React from 'react';
-import profileImage from '../assets/Me.jpg'; // Assurez-vous que le chemin est correct
+import profileImage from '../assets/Me.jpg';
 
 const About = () => {
   return (
@@ -31,7 +31,7 @@ const About = () => {
             </div>
           </div>
           <p className="text-lg">
-          After studying electrical engineering, specialising in information and communication techniques, I made an unusual choice: freedom. This choice led me to work as a translator, which I had started during my studies and later pursued on a freelance basis. After Corona and the ordeal that the whole planet went through, I felt the need to reinvent myself and after a great deal of research my choice fell on web development. And what started out as a need for change is now becoming a passion. My name is Edgard Jocelyn Amvame and I'm a web developer at the end of my training.
+          After studying electrical engineering, specialising in information and communication techniques, I made an atypical choice, that of freedom. This choice led me to work as a translator, which I had started during my studies and later pursued on a freelance basis. After Corona and the ordeal that the whole planet went through, I felt the need to reinvent myself, a need that led me to train in web-development at DCi. And what started out as a need for change is now becoming a passion. My name is Edgard Jocelyn Amvame and I'm a web developer at the end of my training.
           </p>
         </div>
       </div>

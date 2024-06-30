@@ -35,4 +35,4 @@ This portfolio has been created to provide an online showcase for my work and sk
 - Tailwind CSS**: CSS framework for fast, responsive styles.
 - EmailJS**: Service for sending emails directly from JavaScript.
 - Vite**: Rapid build tool for modern front-end projects.
-- 
+  

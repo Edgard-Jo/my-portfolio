@@ -23,7 +23,7 @@ const Projects = () => {
             <div className="h-64 bg-gray-800">
               <img src={movieAppImg} alt="Movie App" className="object-cover w-full h-full"/>
             </div>
-            <div className="mt-4">An application to browse and discover movies.</div>
+            <div className="mt-4">An application to browse and discover movies. </div>
           </div>
         </div>
         <div className="card bg-base-100 shadow-xl">
