@@ -11,7 +11,7 @@ const About = () => {
         <div className="md:flex-1 text-center md:text-left">
           <h2 className="text-4xl font-bold mb-2 text-center">About me</h2>
           <h3 className="text-3xl text-blue-800 mb-2">Edgard Jocelyn Amvame</h3>
-          <h4 className="text-xl text-red-500 mb-4 text-center">Full Stack Developer</h4>
+          <h4 className="text-xl text-white-500 mb-4 text-center">Full Stack Developer</h4>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
             <div className="p-4 border border-gray-500 rounded-lg">
               <p className="text-lg font-bold text-center">Location</p>
@@ -40,3 +40,4 @@ const About = () => {
 };
 
 export default About;
+

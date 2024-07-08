@@ -14,7 +14,7 @@ const Header = () => {
         >
           &#9776;
         </button>
-        <ul className={`nav-items ${isOpen ? 'hidden' : 'hidden'} md:flex space-x-4`}>
+        <ul className={`nav-items ${isOpen ? 'hidden' : 'hidden'} md:flex space-x-4 roundede-lg`}>
           <li><Link to="home" smooth={true} duration={500} className="btn btn-ghost">Home</Link></li>
           <li><Link to="about" smooth={true} duration={500} className="btn btn-ghost">About</Link></li>
           <li><Link to="projects" smooth={true} duration={500} className="btn btn-ghost">Projects</Link></li>
@@ -36,3 +36,5 @@ const Header = () => {
 };
 
 export default Header;
+
+

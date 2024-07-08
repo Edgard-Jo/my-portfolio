@@ -9,7 +9,6 @@ const Contact = () => {
     message: ''
   });
   const form = useRef();
-
   const handleChange = (e) => {
     setFormData({
       ...formData,
@@ -26,9 +25,10 @@ const Contact = () => {
       form.current,
       'isGgB2FnVK7aDt-Ih'      
     ).then((result) => {
+      console.log('SUCCESS!', result.status, result.text); 
       alert('Message successfully sent!');
     }).catch((error) => {
-      console.error(error.text);
+      console.error('FAILED...', error.text); 
       alert('An error has occurred, please try again');
     });
 
@@ -40,7 +40,7 @@ const Contact = () => {
   };
 
   return (
-    <div id="contact" className="container mx-auto my-8 p-4 flex justify-center items-center bg-gray-800">
+    <div id="contact" className="container mx-auto my-8 p-4 rounded-lg flex justify-center items-center bg-gray-800">
       <div className="bg-white p-8 rounded-lg shadow-lg w-full md:w-3/4 lg:w-1/2 flex flex-col md:flex-row">
         <div className="md:w-2/3">
           <h2 className="text-2xl text-center font-bold mb-4">Contact Me <span role="img" aria-label="point up">☝️</span></h2>
@@ -95,3 +95,4 @@ const Contact = () => {
 };
 
 export default Contact;
+
