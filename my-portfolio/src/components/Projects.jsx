@@ -5,10 +5,10 @@ import weatherAppImg from '../assets/weatherapp.png';
 
 const Projects = () => {
   return (
-    <div id="projects" className="container bg-gray-500 mx-auto my-8 p-4">
+    <div id="projects" className="container bg-gray-500 mx-auto my-8 p-4 rounded-lg">
       <h2 className="text-2xl font-bold mb-4">Projects</h2>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-        <div className="card bg-base-100 rounded-lg shadow-xl">
+        <div className="card bg-base-100  shadow-xl">
           <a href="https://your-quicklist-link.com" target="_blank" rel="noopener noreferrer">
             <div className="card-body">
               <h3 className="card-title">QuickList</h3>
